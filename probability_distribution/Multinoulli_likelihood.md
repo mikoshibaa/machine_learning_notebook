@@ -37,6 +37,7 @@ $$
 $\sum_k \theta_k = 1$ の制約を用いてラグランジュの未定乗数法を使う．
 
 結論：
+
 $$
 \begin{align*}
     \hat{\theta_k} &= \frac{N_k}{N}

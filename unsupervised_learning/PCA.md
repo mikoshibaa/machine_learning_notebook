@@ -16,15 +16,17 @@ PCAはサンプル共分散行列についての固有方程式を解くこと�
 $D$ 次元データ $x$ を次の形で $\{ u_{m} \}$ で貼られる $M$ 低次元空間に落とす.超平面に直交射影するイメージ．
 
 $$
+\begin{align*}
     \begin{pmatrix}
         y_1 & y_2 & \cdots & y_{M}
     \end{pmatrix}
-    =
+    &=
     x^T
     \begin{pmatrix}
         u_1 & u_2 & \cdots & u_{M}
     \end{pmatrix}\\
-    Y = X U
+    Y &= X U
+\end{align*}
 $$
 
 結果としてサンプル共分散行列 $S$ の固有値を大きい方からえらび，それに最小にするベクトルを選択する．

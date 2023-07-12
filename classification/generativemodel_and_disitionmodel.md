@@ -13,8 +13,10 @@
 $x$ を重み付け和としてシグモイド関数にのせる．
 
 $$
+\begin{align*}
     c|x \sim Bernoulli(sigmoid(w^T x))\\
     \textbf{where } sigmoid(w^T x) = \frac{1}{1 + \exp(-w^T x)}
+\end{align*}
 $$
 
 識別面は原点を通り法線ベクトルが $w$ であるような超平面である( $\because w^T x = 0$ ).
